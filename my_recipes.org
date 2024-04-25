@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       e9a4e06f-cea2-464d-b250-c77a3eb020c7
+:ROAM_ALIASES: Essen, Recipies
 :END:
-#+title: My Recipies
- :ROAM_ALIASES: Essen, Recipies
 #+EXPORT_FILE_NAME: /home/scrappy/src/recipies/index
+#+title: My Recipies
 
 * Standard meals
 
