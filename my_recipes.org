@@ -3,7 +3,8 @@
 :ROAM_ALIASES: Essen, Recipies
 :END:
 #+EXPORT_FILE_NAME: /home/scrappy/src/recipies/index
-#+title: My Recipies
+#+title: Bukajs Cookbook
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 
 * Standard meals
 
@@ -221,6 +222,20 @@ mix stuff, add to pan and add cheese between two pancakes when they are golden b
 - tofu
 - rice
   
+** VEgg Tofu
+*** Ingredients
+**** dry rub
+- Starch
+- Glutinous rice flower
+- salt
+- pepper
+**** batter
+- vegan egg
+- korean chili paste
+- water
+*** Preparation
+fry in oil duh :)
+
 * Sauces
 ** sweet and sour sesame dressing from AH tofu box
 *** Ingredients

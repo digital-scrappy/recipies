@@ -2,318 +2,315 @@
 <html lang="en">
 
 <head>
-    <!-- 2024-04-25 Thu 10:59 -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Recipies</title>
-    <meta name="author" content="Jakob Hauser" />
-    <meta name="generator" content="Org Mode" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- 2024-04-25 Thu 20:42 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bukajs Cookbook</title>
+<meta name="author" content="Jakob Hauser" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <div id="content" class="content">
-        <header>
-            <h1 class="title">My Recipies</h1>
-        </header>
-        <nav id="table-of-contents" role="doc-toc">
-            <h2>Table of Contents</h2>
-            <div id="text-table-of-contents" role="doc-toc">
-                <ul>
-                    <li><a href="#orgff1c2db">1. Standard meals</a>
-                        <ul>
-                            <li><a href="#org3e41c2c">1.1. Potato Dumplings with rotkraut and smoked tofu</a></li>
-                            <li><a href="#org8fdeab1">1.2. pasta with fennel sauce</a></li>
-                            <li><a href="#org0064294">1.3. Potato Dumplings with mushroom ragout and red cabbage</a>
-                            </li>
-                            <li><a href="#orgb5613dd">1.4. Aglio e olio pimped to the max</a>
-                                <ul>
-                                    <li><a href="#org5cccd8e">1.4.1. Ingredients:</a></li>
-                                    <li><a href="#org1773585">1.4.2. Instructions</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orga383358">1.5. Bohnen Gulasch</a>
-                                <ul>
-                                    <li><a href="#orgfbd4efc">1.5.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orgf28ef07">1.6. Chickpea Curry</a>
-                                <ul>
-                                    <li><a href="#org6f6158c">1.6.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orgca19117">1.7. Pasta Alio e olio con peperoncino pimped by Stef</a>
-                                <ul>
-                                    <li><a href="#orgf9f28c6">1.7.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orga501115">1.8. Dal with</a>
-                                <ul>
-                                    <li><a href="#orga6376d4">1.8.1. Ingredients</a></li>
-                                    <li><a href="#org3d59d48">1.8.2. Preperation</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org776c7b7">1.9. <span class="todo TODO">TODO</span> lemon zesty carbocream
-                                    pasta madness</a></li>
-                            <li><a href="#orgba3c734">1.10. Tom Kha Gai</a>
-                                <ul>
-                                    <li><a href="#org4bf4714">1.10.1. Ingredients</a></li>
-                                    <li><a href="#org005edb4">1.10.2. Recipe</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org393a586">1.11. Gazpacho Andaluz</a>
-                                <ul>
-                                    <li><a href="#orgfc98c6d">1.11.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orgfe2c9bb">1.12. Kürbis Kichererbsen Eintopf</a>
-                                <ul>
-                                    <li><a href="#org872d1e8">1.12.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orgd3f31d0">1.13. Gratin Dauphinoise</a>
-                                <ul>
-                                    <li><a href="#org42b76cf">1.13.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orga5a7be1">1.14. Veganes Krautfleisch</a>
-                                <ul>
-                                    <li><a href="#org9e2ddbf">1.14.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org198e9dc">1.15. <span class="todo TODO">TODO</span> Garlic Chili Tofu
-                                    Noodles</a></li>
-                            <li><a href="#org8abef92">1.16. Steirischer Bohnensalat</a>
-                                <ul>
-                                    <li><a href="#orgb558436">1.16.1. Ingredients</a></li>
-                                    <li><a href="#org5334df5">1.16.2. preperation</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org107e951">1.17. Asparagus Pasta</a></li>
-                            <li><a href="#orgd9355ad">1.18. arepa de choclo (comlumbian corn pancakes)</a>
-                                <ul>
-                                    <li><a href="#org950f7fd">1.18.1. Ingredients</a></li>
-                                    <li><a href="#org500a7da">1.18.2. Instructions</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#orgce76212">1.19. Daal Makhni</a></li>
-                            <li><a href="#org8f689cc">1.20. Pho Bo</a>
-                                <ul>
-                                    <li><a href="#orgd302d61">1.20.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org0a20b3d">1.21. LacknerPalak</a>
-                                <ul>
-                                    <li><a href="#org97f31b6">1.21.1. Ingredients for the Palak</a></li>
-                                    <li><a href="#orge8ad63f">1.21.2. Sides</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#org427f6ef">2. Sauces</a>
-                        <ul>
-                            <li><a href="#org1842650">2.1. sweet and sour sesame dressing from AH tofu box</a>
-                                <ul>
-                                    <li><a href="#orgf371159">2.1.1. Ingredients</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org04b2964">2.2. Bohnenpaste mit Kreuzkümmel</a></li>
-                            <li><a href="#org82d0e2a">2.3. Bohnenpaste mit Joghurt</a>
-                                <ul>
-                                    <li><a href="#orgb41ea5b">2.3.1. Ingredients</a></li>
-                                    <li><a href="#org30e06fb">2.3.2. Instructions</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#org6c5009f">2.4. Muhammra</a>
-                                <ul>
-                                    <li><a href="#org28fc25e">2.4.1. Ingredients</a></li>
-                                    <li><a href="#org6f5dfbd">2.4.2. Seasoning</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#orgbb227f1">3. Snacks</a>
-                        <ul>
-                            <li><a href="#org170641f">3.1. cliff bar recreation</a>
-                                <ul>
-                                    <li><a href="#org45fc084">3.1.1. der standard</a></li>
-                                    <li><a href="#org88b055a">3.1.2. ich</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#org4ceb92f">4. Research</a>
-                        <ul>
-                            <li><a href="#orgc46cbf5">4.1. Arab dishes deep dive</a>
-                                <ul>
-                                    <li><a href="#orgfcf5637">4.1.1. Maghmour (lebanese chickpeas + eggplant +
-                                            tomatoes)</a></li>
-                                    <li><a href="#org3ac6c07">4.1.2. Mujadara</a></li>
-                                    <li><a href="#org44929b9">4.1.3. Freekeh</a></li>
-                                    <li><a href="#orgdc916bc">4.1.4. fatteh ohne chicken</a></li>
-                                    <li><a href="#org1e9e489">4.1.5. Ful medames</a></li>
-                                    <li><a href="#org5c59ec4">4.1.6. Molokhia</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<div id="content" class="content">
+<header>
+<h1 class="title">Bukajs Cookbook</h1>
+</header><nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgff1c2db">1. Standard meals</a>
+<ul>
+<li><a href="#org3e41c2c">1.1. Potato Dumplings with rotkraut and smoked tofu</a></li>
+<li><a href="#org8fdeab1">1.2. pasta with fennel sauce</a></li>
+<li><a href="#org0064294">1.3. Potato Dumplings with mushroom ragout and red cabbage</a></li>
+<li><a href="#orgb5613dd">1.4. Aglio e olio pimped to the max</a>
+<ul>
+<li><a href="#org5cccd8e">1.4.1. Ingredients:</a></li>
+<li><a href="#orgbf433fb">1.4.2. Instructions</a></li>
+</ul>
+</li>
+<li><a href="#orga383358">1.5. Bohnen Gulasch</a>
+<ul>
+<li><a href="#org9cfdc24">1.5.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orgf28ef07">1.6. Chickpea Curry</a>
+<ul>
+<li><a href="#orgf9cf052">1.6.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orgca19117">1.7. Pasta Alio e olio con peperoncino pimped by Stef</a>
+<ul>
+<li><a href="#org72a9e8d">1.7.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orga501115">1.8. Dal with</a>
+<ul>
+<li><a href="#orge51352e">1.8.1. Ingredients</a></li>
+<li><a href="#org3d59d48">1.8.2. Preperation</a></li>
+</ul>
+</li>
+<li><a href="#org776c7b7">1.9. <span class="todo TODO">TODO</span> lemon zesty carbocream pasta madness</a></li>
+<li><a href="#orgba3c734">1.10. Tom Kha Gai</a>
+<ul>
+<li><a href="#org2fa80a9">1.10.1. Ingredients</a></li>
+<li><a href="#org005edb4">1.10.2. Recipe</a></li>
+</ul>
+</li>
+<li><a href="#org393a586">1.11. Gazpacho Andaluz</a>
+<ul>
+<li><a href="#orgdbd18dc">1.11.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orgfe2c9bb">1.12. Kürbis Kichererbsen Eintopf</a>
+<ul>
+<li><a href="#org1115afd">1.12.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orgd3f31d0">1.13. Gratin Dauphinoise</a>
+<ul>
+<li><a href="#org74bca04">1.13.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#orga5a7be1">1.14. Veganes Krautfleisch</a>
+<ul>
+<li><a href="#org66dae4c">1.14.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#org198e9dc">1.15. <span class="todo TODO">TODO</span> Garlic Chili Tofu Noodles</a></li>
+<li><a href="#org8abef92">1.16. Steirischer Bohnensalat</a>
+<ul>
+<li><a href="#org50c79ff">1.16.1. Ingredients</a></li>
+<li><a href="#org5334df5">1.16.2. preperation</a></li>
+</ul>
+</li>
+<li><a href="#org107e951">1.17. Asparagus Pasta</a></li>
+<li><a href="#orgd9355ad">1.18. arepa de choclo (comlumbian corn pancakes)</a>
+<ul>
+<li><a href="#orgc49aa30">1.18.1. Ingredients</a></li>
+<li><a href="#org1c2b562">1.18.2. Instructions</a></li>
+</ul>
+</li>
+<li><a href="#orgce76212">1.19. Daal Makhni</a></li>
+<li><a href="#org8f689cc">1.20. Pho Bo</a>
+<ul>
+<li><a href="#orgb04ecf7">1.20.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#org0a20b3d">1.21. LacknerPalak</a>
+<ul>
+<li><a href="#org97f31b6">1.21.1. Ingredients for the Palak</a></li>
+<li><a href="#org720756b">1.21.2. Sides</a></li>
+</ul>
+</li>
+<li><a href="#org83fbbd3">1.22. VEgg Tofu</a>
+<ul>
+<li><a href="#org6cddd4e">1.22.1. Ingredients</a></li>
+<li><a href="#orgd6695ee">1.22.2. Preparation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org427f6ef">2. Sauces</a>
+<ul>
+<li><a href="#org1842650">2.1. sweet and sour sesame dressing from AH tofu box</a>
+<ul>
+<li><a href="#org386645a">2.1.1. Ingredients</a></li>
+</ul>
+</li>
+<li><a href="#org04b2964">2.2. Bohnenpaste mit Kreuzkümmel</a></li>
+<li><a href="#org82d0e2a">2.3. Bohnenpaste mit Joghurt</a>
+<ul>
+<li><a href="#orge31ec3c">2.3.1. Ingredients</a></li>
+<li><a href="#orga502b02">2.3.2. Instructions</a></li>
+</ul>
+</li>
+<li><a href="#org6c5009f">2.4. Muhammra</a>
+<ul>
+<li><a href="#orgb2b220a">2.4.1. Ingredients</a></li>
+<li><a href="#org6f5dfbd">2.4.2. Seasoning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgbb227f1">3. Snacks</a>
+<ul>
+<li><a href="#org170641f">3.1. cliff bar recreation</a>
+<ul>
+<li><a href="#org45fc084">3.1.1. der standard</a></li>
+<li><a href="#org88b055a">3.1.2. ich</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org4ceb92f">4. Research</a>
+<ul>
+<li><a href="#orgc46cbf5">4.1. Arab dishes deep dive</a>
+<ul>
+<li><a href="#orgfcf5637">4.1.1. Maghmour (lebanese chickpeas + eggplant + tomatoes)</a></li>
+<li><a href="#org3ac6c07">4.1.2. Mujadara</a></li>
+<li><a href="#org44929b9">4.1.3. Freekeh</a></li>
+<li><a href="#orgdc916bc">4.1.4. fatteh ohne chicken</a></li>
+<li><a href="#org1e9e489">4.1.5. Ful medames</a></li>
+<li><a href="#org5c59ec4">4.1.6. Molokhia</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
 
-        <div id="outline-container-orgff1c2db" class="outline-2">
-            <h2 id="orgff1c2db"><span class="section-number-2">1.</span> Standard meals</h2>
-            <div class="outline-text-2" id="text-1">
-            </div>
-            <div id="outline-container-org3e41c2c" class="outline-3">
-                <h3 id="org3e41c2c"><span class="section-number-3">1.1.</span> Potato Dumplings with rotkraut and smoked
-                    tofu</h3>
-            </div>
-            <div id="outline-container-org8fdeab1" class="outline-3">
-                <h3 id="org8fdeab1"><span class="section-number-3">1.2.</span> pasta with fennel sauce</h3>
-            </div>
-            <div id="outline-container-org0064294" class="outline-3">
-                <h3 id="org0064294"><span class="section-number-3">1.3.</span> Potato Dumplings with mushroom ragout and
-                    red cabbage</h3>
-                <div class="outline-text-3" id="text-1-3">
-                    <p>
-                        <a
-                            href="https://zuckerjagdwurst.com/en/recipes/vegan-potato-dumplings-mushroom-ragout-red-cabbage">https://zuckerjagdwurst.com/en/recipes/vegan-potato-dumplings-mushroom-ragout-red-cabbage</a>
-                    </p>
-                </div>
-            </div>
-            <div id="outline-container-orgb5613dd" class="outline-3">
-                <h3 id="orgb5613dd"><span class="section-number-3">1.4.</span> Aglio e olio pimped to the max</h3>
-                <div class="outline-text-3" id="text-1-4">
-                    <p>
-                        "Aglio e olio con peperoncino, semi di zucca e scorza di limone"
-                    </p>
-                </div>
-                <div id="outline-container-org5cccd8e" class="outline-4">
-                    <h4 id="org5cccd8e"><span class="section-number-4">1.4.1.</span> Ingredients:</h4>
-                    <div class="outline-text-4" id="text-1-4-1">
-                        <ul class="org-ul">
-                            <li>Garlic</li>
-                            <li>Olive Oil</li>
-                            <li>Chili</li>
-                            <li>Parsley</li>
-                            <li>Pumpkin Seeds</li>
-                            <li>Lemon Zest</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org1773585" class="outline-4">
-                    <h4 id="org1773585"><span class="section-number-4">1.4.2.</span> Instructions</h4>
-                    <div class="outline-text-4" id="text-1-4-2">
-                        <p>
-                            Roast pumpkin seeds separately.
-                        </p>
-                    </div>
-                </div>
-            </div>
+<div id="outline-container-orgff1c2db" class="outline-2">
+<h2 id="orgff1c2db"><span class="section-number-2">1.</span> Standard meals</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org3e41c2c" class="outline-3">
+<h3 id="org3e41c2c"><span class="section-number-3">1.1.</span> Potato Dumplings with rotkraut and smoked tofu</h3>
+</div>
+<div id="outline-container-org8fdeab1" class="outline-3">
+<h3 id="org8fdeab1"><span class="section-number-3">1.2.</span> pasta with fennel sauce</h3>
+</div>
+<div id="outline-container-org0064294" class="outline-3">
+<h3 id="org0064294"><span class="section-number-3">1.3.</span> Potato Dumplings with mushroom ragout and red cabbage</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+<a href="https://zuckerjagdwurst.com/en/recipes/vegan-potato-dumplings-mushroom-ragout-red-cabbage">https://zuckerjagdwurst.com/en/recipes/vegan-potato-dumplings-mushroom-ragout-red-cabbage</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgb5613dd" class="outline-3">
+<h3 id="orgb5613dd"><span class="section-number-3">1.4.</span> Aglio e olio pimped to the max</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+"Aglio e olio con peperoncino, semi di zucca e scorza di limone"
+</p>
+</div>
+<div id="outline-container-org5cccd8e" class="outline-4">
+<h4 id="org5cccd8e"><span class="section-number-4">1.4.1.</span> Ingredients:</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<ul class="org-ul">
+<li>Garlic</li>
+<li>Olive Oil</li>
+<li>Chili</li>
+<li>Parsley</li>
+<li>Pumpkin Seeds</li>
+<li>Lemon Zest</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbf433fb" class="outline-4">
+<h4 id="orgbf433fb"><span class="section-number-4">1.4.2.</span> Instructions</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+Roast pumpkin seeds separately.
+</p>
+</div>
+</div>
+</div>
 
-            <div id="outline-container-orga383358" class="outline-3">
-                <h3 id="orga383358"><span class="section-number-3">1.5.</span> Bohnen Gulasch</h3>
-                <div class="outline-text-3" id="text-1-5">
-                </div>
-                <div id="outline-container-orgfbd4efc" class="outline-4">
-                    <h4 id="orgfbd4efc"><span class="section-number-4">1.5.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-5-1">
-                        <ul class="org-ul">
-                            <li>Potatoes</li>
-                            <li>Tofu</li>
-                            <li>Onions</li>
-                            <li>Passata</li>
-                            <li>Bohnenkraut</li>
-                            <li>Majoran</li>
-                            <li>Paprika Powder</li>
-                            <li>Siracha</li>
-                            <li>Kümmel</li>
-                            <li>Laurel leaf</li>
-                            <li>Applecider vinegar</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-orgf28ef07" class="outline-3">
-                <h3 id="orgf28ef07"><span class="section-number-3">1.6.</span> Chickpea Curry</h3>
-                <div class="outline-text-3" id="text-1-6">
-                </div>
-                <div id="outline-container-org6f6158c" class="outline-4">
-                    <h4 id="org6f6158c"><span class="section-number-4">1.6.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-6-1">
-                    </div>
-                    <ol class="org-ol">
-                        <li><a id="org3a9e441"></a>Main<br>
-                            <div class="outline-text-5" id="text-1-6-1-1">
-                                <ul class="org-ul">
-                                    <li>Chickpeas</li>
-                                    <li>Onions</li>
-                                    <li>Coconut Milk</li>
-                                    <li>Diced Tomatoes</li>
-                                    <li>Veggies</li>
-                                    <li>Ginger</li>
-                                    <li>Garlic</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a id="org8365264"></a>Spices<br>
-                            <div class="outline-text-5" id="text-1-6-1-2">
-                                <ul class="org-ul">
-                                    <li>Curry</li>
-                                    <li>Kafir Lime leaf</li>
-                                    <li>Chilli</li>
-                                    <li>Sambal</li>
-                                    <li>Lemongrass</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a id="orgcdbcb2d"></a>Sides<br>
-                            <div class="outline-text-5" id="text-1-6-1-3">
-                                <ul class="org-ul">
-                                    <li>CousCous</li>
-                                    <li>Rice</li>
-                                    <li>None</li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </div>
+<div id="outline-container-orga383358" class="outline-3">
+<h3 id="orga383358"><span class="section-number-3">1.5.</span> Bohnen Gulasch</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org9cfdc24" class="outline-4">
+<h4 id="org9cfdc24"><span class="section-number-4">1.5.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<ul class="org-ul">
+<li>Potatoes</li>
+<li>Tofu</li>
+<li>Onions</li>
+<li>Passata</li>
+<li>Bohnenkraut</li>
+<li>Majoran</li>
+<li>Paprika Powder</li>
+<li>Siracha</li>
+<li>Kümmel</li>
+<li>Laurel leaf</li>
+<li>Applecider vinegar</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf28ef07" class="outline-3">
+<h3 id="orgf28ef07"><span class="section-number-3">1.6.</span> Chickpea Curry</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-orgf9cf052" class="outline-4">
+<h4 id="orgf9cf052"><span class="section-number-4">1.6.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-6-1">
+</div>
+<ol class="org-ol">
+<li><a id="org3df3ded"></a>Main<br>
+<div class="outline-text-5" id="text-1-6-1-1">
+<ul class="org-ul">
+<li>Chickpeas</li>
+<li>Onions</li>
+<li>Coconut Milk</li>
+<li>Diced Tomatoes</li>
+<li>Veggies</li>
+<li>Ginger</li>
+<li>Garlic</li>
+</ul>
+</div>
+</li>
+<li><a id="org23e818e"></a>Spices<br>
+<div class="outline-text-5" id="text-1-6-1-2">
+<ul class="org-ul">
+<li>Curry</li>
+<li>Kafir Lime leaf</li>
+<li>Chilli</li>
+<li>Sambal</li>
+<li>Lemongrass</li>
+</ul>
+</div>
+</li>
+<li><a id="org09e7a2b"></a>Sides<br>
+<div class="outline-text-5" id="text-1-6-1-3">
+<ul class="org-ul">
+<li>CousCous</li>
+<li>Rice</li>
+<li>None</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
 
-            <div id="outline-container-orgca19117" class="outline-3">
-                <h3 id="orgca19117"><span class="section-number-3">1.7.</span> Pasta Alio e olio con peperoncino pimped
-                    by Stef</h3>
-                <div class="outline-text-3" id="text-1-7">
-                </div>
-                <div id="outline-container-orgf9f28c6" class="outline-4">
-                    <h4 id="orgf9f28c6"><span class="section-number-4">1.7.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-7-1">
-                        <ul class="org-ul">
-                            <li>Pasta</li>
-                            <li>lemon zest</li>
-                            <li>concentrato di pomodoro</li>
-                            <li>parsley</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-orga501115" class="outline-3">
-                <h3 id="orga501115"><span class="section-number-3">1.8.</span> Dal with</h3>
-                <div class="outline-text-3" id="text-1-8">
-                </div>
-                <div id="outline-container-orga6376d4" class="outline-4">
-                    <h4 id="orga6376d4"><span class="section-number-4">1.8.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-8-1">
-                        <p>
-                            <span class="underline">Dal:</span>
-                        </p>
-                        <ul class="org-ul">
-                            <li>200 g Rote Linsen</li>
-                            <li>1 TL Kurkumapulver</li>
-                            <li>1 TL Öl</li>
-                            <li>1 1/2 TL Salz</li>
-                        </ul>
+<div id="outline-container-orgca19117" class="outline-3">
+<h3 id="orgca19117"><span class="section-number-3">1.7.</span> Pasta Alio e olio con peperoncino pimped by Stef</h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-org72a9e8d" class="outline-4">
+<h4 id="org72a9e8d"><span class="section-number-4">1.7.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<ul class="org-ul">
+<li>Pasta</li>
+<li>lemon zest</li>
+<li>concentrato di pomodoro</li>
+<li>parsley</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga501115" class="outline-3">
+<h3 id="orga501115"><span class="section-number-3">1.8.</span> Dal with</h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+<div id="outline-container-orge51352e" class="outline-4">
+<h4 id="orge51352e"><span class="section-number-4">1.8.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<p>
+<span class="underline">Dal:</span>
+</p>
+<ul class="org-ul">
+<li>200 g Rote Linsen</li>
+<li>1 TL Kurkumapulver</li>
+<li>1 TL Öl</li>
+<li>1 1/2 TL Salz</li>
+</ul>
 
                         <p>
                             <span class="underline">Tadka:</span>
@@ -354,164 +351,160 @@
                 </div>
             </div>
 
-            <div id="outline-container-org776c7b7" class="outline-3">
-                <h3 id="org776c7b7"><span class="section-number-3">1.9.</span> <span class="todo TODO">TODO</span> lemon
-                    zesty carbocream pasta madness</h3>
-            </div>
-            <div id="outline-container-orgba3c734" class="outline-3">
-                <h3 id="orgba3c734"><span class="section-number-3">1.10.</span> Tom Kha Gai</h3>
-                <div class="outline-text-3" id="text-1-10">
-                </div>
-                <div id="outline-container-org4bf4714" class="outline-4">
-                    <h4 id="org4bf4714"><span class="section-number-4">1.10.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-10-1">
-                        <ul class="org-ul">
-                            <li>Onions</li>
-                            <li>Garlic</li>
-                            <li>gangal (a sort of Thai ginger)</li>
-                            <li>chilies</li>
-                            <li>cilantro</li>
-                            <li>Kaffir lime leaves</li>
-                            <li>coconut milk</li>
-                            <li>Basmati rice</li>
-                            <li>Miso paste</li>
-                            <li>lemon grass</li>
-                            <li>vegetable stock or salt</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org005edb4" class="outline-4">
-                    <h4 id="org005edb4"><span class="section-number-4">1.10.2.</span> Recipe</h4>
-                </div>
-            </div>
+<div id="outline-container-org776c7b7" class="outline-3">
+<h3 id="org776c7b7"><span class="section-number-3">1.9.</span> <span class="todo TODO">TODO</span> lemon zesty carbocream pasta madness</h3>
+</div>
+<div id="outline-container-orgba3c734" class="outline-3">
+<h3 id="orgba3c734"><span class="section-number-3">1.10.</span> Tom Kha Gai</h3>
+<div class="outline-text-3" id="text-1-10">
+</div>
+<div id="outline-container-org2fa80a9" class="outline-4">
+<h4 id="org2fa80a9"><span class="section-number-4">1.10.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-10-1">
+<ul class="org-ul">
+<li>Onions</li>
+<li>Garlic</li>
+<li>gangal (a sort of Thai ginger)</li>
+<li>chilies</li>
+<li>cilantro</li>
+<li>Kaffir lime leaves</li>
+<li>coconut milk</li>
+<li>Basmati rice</li>
+<li>Miso paste</li>
+<li>lemon grass</li>
+<li>vegetable stock or salt</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org005edb4" class="outline-4">
+<h4 id="org005edb4"><span class="section-number-4">1.10.2.</span> Recipe</h4>
+</div>
+</div>
 
-            <div id="outline-container-org393a586" class="outline-3">
-                <h3 id="org393a586"><span class="section-number-3">1.11.</span> Gazpacho Andaluz</h3>
-                <div class="outline-text-3" id="text-1-11">
-                </div>
-                <div id="outline-container-orgfc98c6d" class="outline-4">
-                    <h4 id="orgfc98c6d"><span class="section-number-4">1.11.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-11-1">
-                        <ul class="org-ul">
-                            <li>1 kg Tomatoes</li>
-                            <li>2 Peppers</li>
-                            <li>1 Cucumber</li>
-                            <li>1 clove Garlic</li>
-                            <li>1 Onion</li>
-                            <li>Olive Oil</li>
-                            <li>Salt</li>
-                            <li>Vinegar</li>
-                            <li>Croutons/Bread</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-orgfe2c9bb" class="outline-3">
-                <h3 id="orgfe2c9bb"><span class="section-number-3">1.12.</span> Kürbis Kichererbsen Eintopf</h3>
-                <div class="outline-text-3" id="text-1-12">
-                </div>
-                <div id="outline-container-org872d1e8" class="outline-4">
-                    <h4 id="org872d1e8"><span class="section-number-4">1.12.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-12-1">
-                    </div>
-                    <ol class="org-ol">
-                        <li><a id="org9937486"></a>Main<br>
-                            <div class="outline-text-5" id="text-1-12-1-1">
-                                <ul class="org-ul">
-                                    <li>Hokkaido Pumpkin</li>
-                                    <li>Passata/Polpa</li>
-                                    <li>Diced canned tomatoes</li>
-                                    <li>Onion</li>
-                                    <li>Garlic</li>
-                                    <li>Dried Plumbs</li>
-                                    <li>Chickpeas</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a id="orge93c2a8"></a>Spices<br>
-                            <div class="outline-text-5" id="text-1-12-1-2">
-                                <ul class="org-ul">
-                                    <li>Harissia powder (Cumin, Caraway, Coriander seeds, Smoked paprika powder, Paprika
-                                        Powder, Piment, Fenugreek leaves/Boxhornklee Blätter (Kasuri Methi - get it from
-                                        an Indian Shop), Bay Leaves, Chilli)</li>
-                                    <li>Lime</li>
-                                    <li>Fresh Coriander</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a id="orgb00d4b6"></a>Sides<br>
-                            <div class="outline-text-5" id="text-1-12-1-3">
-                                <ul class="org-ul">
-                                    <li>Rice</li>
-                                    <li>Bulgur</li>
-                                    <li>CousCous</li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <div id="outline-container-orgd3f31d0" class="outline-3">
-                <h3 id="orgd3f31d0"><span class="section-number-3">1.13.</span> Gratin Dauphinoise</h3>
-                <div class="outline-text-3" id="text-1-13">
-                </div>
-                <div id="outline-container-org42b76cf" class="outline-4">
-                    <h4 id="org42b76cf"><span class="section-number-4">1.13.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-13-1">
-                        <ul class="org-ul">
-                            <li>1 kilo Erdäpfel</li>
-                            <li>750ml Milch</li>
-                            <li>300 ml Schlagobers</li>
-                            <li>3 Knoblauch zehen</li>
-                            <li>Muskatnuss</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-orga5a7be1" class="outline-3">
-                <h3 id="orga5a7be1"><span class="section-number-3">1.14.</span> Veganes Krautfleisch</h3>
-                <div class="outline-text-3" id="text-1-14">
-                </div>
-                <div id="outline-container-org9e2ddbf" class="outline-4">
-                    <h4 id="org9e2ddbf"><span class="section-number-4">1.14.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-14-1">
-                        <ul class="org-ul">
-                            <li class="off"><input type='checkbox' /> Kartoffeln</li>
-                            <li class="off"><input type='checkbox' /> Sauerkraut</li>
-                            <li class="off"><input type='checkbox' /> Räuchertofu</li>
-                            <li class="off"><input type='checkbox' /> Zwiebel</li>
-                            <li class="off"><input type='checkbox' /> Knoblauch</li>
-                            <li class="off"><input type='checkbox' /> Gemüsesuppe</li>
-                            <li class="off"><input type='checkbox' /> Paprika Pulver</li>
-                            <li class="off"><input type='checkbox' /> Kümmel ganz</li>
-                            <li class="off"><input type='checkbox' /> Lorbeer Blätter</li>
-                            <li class="off"><input type='checkbox' /> Bohnenkraut/Majoran</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+<div id="outline-container-org393a586" class="outline-3">
+<h3 id="org393a586"><span class="section-number-3">1.11.</span> Gazpacho Andaluz</h3>
+<div class="outline-text-3" id="text-1-11">
+</div>
+<div id="outline-container-orgdbd18dc" class="outline-4">
+<h4 id="orgdbd18dc"><span class="section-number-4">1.11.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-11-1">
+<ul class="org-ul">
+<li>1 kg Tomatoes</li>
+<li>2 Peppers</li>
+<li>1 Cucumber</li>
+<li>1 clove Garlic</li>
+<li>1 Onion</li>
+<li>Olive Oil</li>
+<li>Salt</li>
+<li>Vinegar</li>
+<li>Croutons/Bread</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe2c9bb" class="outline-3">
+<h3 id="orgfe2c9bb"><span class="section-number-3">1.12.</span> Kürbis Kichererbsen Eintopf</h3>
+<div class="outline-text-3" id="text-1-12">
+</div>
+<div id="outline-container-org1115afd" class="outline-4">
+<h4 id="org1115afd"><span class="section-number-4">1.12.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-12-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgb688aa1"></a>Main<br>
+<div class="outline-text-5" id="text-1-12-1-1">
+<ul class="org-ul">
+<li>Hokkaido Pumpkin</li>
+<li>Passata/Polpa</li>
+<li>Diced canned tomatoes</li>
+<li>Onion</li>
+<li>Garlic</li>
+<li>Dried Plumbs</li>
+<li>Chickpeas</li>
+</ul>
+</div>
+</li>
+<li><a id="orgffdf573"></a>Spices<br>
+<div class="outline-text-5" id="text-1-12-1-2">
+<ul class="org-ul">
+<li>Harissia powder (Cumin, Caraway, Coriander seeds, Smoked paprika powder, Paprika Powder, Piment, Fenugreek leaves/Boxhornklee Blätter (Kasuri Methi - get it from an Indian Shop), Bay Leaves, Chilli)</li>
+<li>Lime</li>
+<li>Fresh Coriander</li>
+</ul>
+</div>
+</li>
+<li><a id="org050a864"></a>Sides<br>
+<div class="outline-text-5" id="text-1-12-1-3">
+<ul class="org-ul">
+<li>Rice</li>
+<li>Bulgur</li>
+<li>CousCous</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd3f31d0" class="outline-3">
+<h3 id="orgd3f31d0"><span class="section-number-3">1.13.</span> Gratin Dauphinoise</h3>
+<div class="outline-text-3" id="text-1-13">
+</div>
+<div id="outline-container-org74bca04" class="outline-4">
+<h4 id="org74bca04"><span class="section-number-4">1.13.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-13-1">
+<ul class="org-ul">
+<li>1 kilo Erdäpfel</li>
+<li>750ml Milch</li>
+<li>300 ml Schlagobers</li>
+<li>3 Knoblauch zehen</li>
+<li>Muskatnuss</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga5a7be1" class="outline-3">
+<h3 id="orga5a7be1"><span class="section-number-3">1.14.</span> Veganes Krautfleisch</h3>
+<div class="outline-text-3" id="text-1-14">
+</div>
+<div id="outline-container-org66dae4c" class="outline-4">
+<h4 id="org66dae4c"><span class="section-number-4">1.14.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-14-1">
+<ul class="org-ul">
+<li class="off"><input type='checkbox' /> Kartoffeln</li>
+<li class="off"><input type='checkbox' /> Sauerkraut</li>
+<li class="off"><input type='checkbox' /> Räuchertofu</li>
+<li class="off"><input type='checkbox' /> Zwiebel</li>
+<li class="off"><input type='checkbox' /> Knoblauch</li>
+<li class="off"><input type='checkbox' /> Gemüsesuppe</li>
+<li class="off"><input type='checkbox' /> Paprika Pulver</li>
+<li class="off"><input type='checkbox' /> Kümmel ganz</li>
+<li class="off"><input type='checkbox' /> Lorbeer Blätter</li>
+<li class="off"><input type='checkbox' /> Bohnenkraut/Majoran</li>
+</ul>
+</div>
+</div>
+</div>
 
-            <div id="outline-container-org198e9dc" class="outline-3">
-                <h3 id="org198e9dc"><span class="section-number-3">1.15.</span> <span class="todo TODO">TODO</span>
-                    Garlic Chili Tofu Noodles</h3>
-            </div>
-            <div id="outline-container-org8abef92" class="outline-3">
-                <h3 id="org8abef92"><span class="section-number-3">1.16.</span> Steirischer Bohnensalat</h3>
-                <div class="outline-text-3" id="text-1-16">
-                </div>
-                <div id="outline-container-orgb558436" class="outline-4">
-                    <h4 id="orgb558436"><span class="section-number-4">1.16.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-16-1">
-                        <ul class="org-ul">
-                            <li>1 red onion</li>
-                            <li>Pumpkin seed oil</li>
-                            <li>Appelcidar vinegar</li>
-                            <li>salt</li>
-                            <li>Tomatoes / radish (optional)</li>
-                            <li>1/2 Apple shredded (optional</li>
-                        </ul>
-                    </div>
-                </div>
+<div id="outline-container-org198e9dc" class="outline-3">
+<h3 id="org198e9dc"><span class="section-number-3">1.15.</span> <span class="todo TODO">TODO</span> Garlic Chili Tofu Noodles</h3>
+</div>
+<div id="outline-container-org8abef92" class="outline-3">
+<h3 id="org8abef92"><span class="section-number-3">1.16.</span> Steirischer Bohnensalat</h3>
+<div class="outline-text-3" id="text-1-16">
+</div>
+<div id="outline-container-org50c79ff" class="outline-4">
+<h4 id="org50c79ff"><span class="section-number-4">1.16.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-16-1">
+<ul class="org-ul">
+<li>1 red onion</li>
+<li>Pumpkin seed oil</li>
+<li>Appelcidar vinegar</li>
+<li>salt</li>
+<li>Tomatoes / radish (optional)</li>
+<li>1/2 Apple shredded (optional</li>
+</ul>
+</div>
+</div>
 
 
                 <div id="outline-container-org5334df5" class="outline-4">
@@ -536,139 +529,176 @@
                 </div>
             </div>
 
-            <div id="outline-container-orgd9355ad" class="outline-3">
-                <h3 id="orgd9355ad"><span class="section-number-3">1.18.</span> arepa de choclo (comlumbian corn
-                    pancakes)</h3>
-                <div class="outline-text-3" id="text-1-18">
-                </div>
-                <div id="outline-container-org950f7fd" class="outline-4">
-                    <h4 id="org950f7fd"><span class="section-number-4">1.18.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-18-1">
-                        <ul class="org-ul">
-                            <li>285g Mais aus der dose</li>
-                            <li>4tbl spoons corn flour</li>
-                            <li>(1 egg)</li>
-                            <li>1/2 tsp salt</li>
-                            <li>1 tbls spoon molten butter</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org500a7da" class="outline-4">
-                    <h4 id="org500a7da"><span class="section-number-4">1.18.2.</span> Instructions</h4>
-                    <div class="outline-text-4" id="text-1-18-2">
-                        <p>
-                            mix stuff, add to pan and add cheese between two pancakes when they are golden brown on both
-                            sides
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-orgce76212" class="outline-3">
-                <h3 id="orgce76212"><span class="section-number-3">1.19.</span> Daal Makhni</h3>
-            </div>
-            <div id="outline-container-org8f689cc" class="outline-3">
-                <h3 id="org8f689cc"><span class="section-number-3">1.20.</span> Pho Bo</h3>
-                <div class="outline-text-3" id="text-1-20">
-                </div>
-                <div id="outline-container-orgd302d61" class="outline-4">
-                    <h4 id="orgd302d61"><span class="section-number-4">1.20.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-1-20-1">
-                    </div>
-                    <ol class="org-ol">
-                        <li><a id="orgb5b36db"></a>For the soup<br>
-                            <div class="outline-text-5" id="text-1-20-1-1">
-                                <ul class="org-ul">
-                                    <li>Oil</li>
-                                    <li>Carrots</li>
-                                    <li>Garlic</li>
-                                    <li>Ginger</li>
-                                    <li>Lemongrass</li>
-                                    <li>Mushrooms</li>
-                                    <li>Onions</li>
-                                    <li>Cloves</li>
-                                    <li>Star anise</li>
-                                    <li>Chilli</li>
-                                    <li>Miso Paste</li>
-                                    <li>Soy Sauce</li>
-                                    <li>Sambal</li>
-                                    <li>Lemon/Lime juice</li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <div id="outline-container-org0a20b3d" class="outline-3">
-                <h3 id="org0a20b3d"><span class="section-number-3">1.21.</span> LacknerPalak</h3>
-                <div class="outline-text-3" id="text-1-21">
-                </div>
-                <div id="outline-container-org97f31b6" class="outline-4">
-                    <h4 id="org97f31b6"><span class="section-number-4">1.21.1.</span> Ingredients for the Palak</h4>
-                    <div class="outline-text-4" id="text-1-21-1">
-                        <ul class="org-ul">
-                            <li>Cumin</li>
-                            <li>Garam Masala</li>
-                            <li>Coriander seeds/ground</li>
-                            <li>Lemon grass</li>
-                            <li>Garlic</li>
-                            <li>Ginger</li>
-                            <li>Spinach</li>
-                            <li>Chili</li>
-                            <li>Potatoes</li>
-                            <li>Kidneybeans</li>
-                            <li>Coriander leaves</li>
-                            <li>Fenugreek leaves (Kasuri Methi|Bockshornkleeblätter)</li>
-                            <li>Curry leaves</li>
-                            <li>Kafir lime leaves</li>
-                            <li>Coconut milk</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-orge8ad63f" class="outline-4">
-                    <h4 id="orge8ad63f"><span class="section-number-4">1.21.2.</span> Sides</h4>
-                    <div class="outline-text-4" id="text-1-21-2">
-                        <ul class="org-ul">
-                            <li>tofu</li>
-                            <li>rice</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div id="outline-container-orgd9355ad" class="outline-3">
+<h3 id="orgd9355ad"><span class="section-number-3">1.18.</span> arepa de choclo (comlumbian corn pancakes)</h3>
+<div class="outline-text-3" id="text-1-18">
+</div>
+<div id="outline-container-orgc49aa30" class="outline-4">
+<h4 id="orgc49aa30"><span class="section-number-4">1.18.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-18-1">
+<ul class="org-ul">
+<li>285g Mais aus der dose</li>
+<li>4tbl spoons corn flour</li>
+<li>(1 egg)</li>
+<li>1/2 tsp salt</li>
+<li>1 tbls spoon molten butter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1c2b562" class="outline-4">
+<h4 id="org1c2b562"><span class="section-number-4">1.18.2.</span> Instructions</h4>
+<div class="outline-text-4" id="text-1-18-2">
+<p>
+mix stuff, add to pan and add cheese between two pancakes when they are golden brown on both sides
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgce76212" class="outline-3">
+<h3 id="orgce76212"><span class="section-number-3">1.19.</span> Daal Makhni</h3>
+</div>
+<div id="outline-container-org8f689cc" class="outline-3">
+<h3 id="org8f689cc"><span class="section-number-3">1.20.</span> Pho Bo</h3>
+<div class="outline-text-3" id="text-1-20">
+</div>
+<div id="outline-container-orgb04ecf7" class="outline-4">
+<h4 id="orgb04ecf7"><span class="section-number-4">1.20.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-20-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgb5b36db"></a>For the soup<br>
+<div class="outline-text-5" id="text-1-20-1-1">
+<ul class="org-ul">
+<li>Oil</li>
+<li>Carrots</li>
+<li>Garlic</li>
+<li>Ginger</li>
+<li>Lemongrass</li>
+<li>Mushrooms</li>
+<li>Onions</li>
+<li>Cloves</li>
+<li>Star anise</li>
+<li>Chilli</li>
+<li>Miso Paste</li>
+<li>Soy Sauce</li>
+<li>Sambal</li>
+<li>Lemon/Lime juice</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0a20b3d" class="outline-3">
+<h3 id="org0a20b3d"><span class="section-number-3">1.21.</span> LacknerPalak</h3>
+<div class="outline-text-3" id="text-1-21">
+</div>
+<div id="outline-container-org97f31b6" class="outline-4">
+<h4 id="org97f31b6"><span class="section-number-4">1.21.1.</span> Ingredients for the Palak</h4>
+<div class="outline-text-4" id="text-1-21-1">
+<ul class="org-ul">
+<li>Cumin</li>
+<li>Garam Masala</li>
+<li>Coriander seeds/ground</li>
+<li>Lemon grass</li>
+<li>Garlic</li>
+<li>Ginger</li>
+<li>Spinach</li>
+<li>Chili</li>
+<li>Potatoes</li>
+<li>Kidneybeans</li>
+<li>Coriander leaves</li>
+<li>Fenugreek leaves (Kasuri Methi|Bockshornkleeblätter)</li>
+<li>Curry leaves</li>
+<li>Kafir lime leaves</li>
+<li>Coconut milk</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org720756b" class="outline-4">
+<h4 id="org720756b"><span class="section-number-4">1.21.2.</span> Sides</h4>
+<div class="outline-text-4" id="text-1-21-2">
+<ul class="org-ul">
+<li>tofu</li>
+<li>rice</li>
+</ul>
+</div>
+</div>
+</div>
 
-        <div id="outline-container-org427f6ef" class="outline-2">
-            <h2 id="org427f6ef"><span class="section-number-2">2.</span> Sauces</h2>
-            <div class="outline-text-2" id="text-2">
-            </div>
-            <div id="outline-container-org1842650" class="outline-3">
-                <h3 id="org1842650"><span class="section-number-3">2.1.</span> sweet and sour sesame dressing from AH
-                    tofu box</h3>
-                <div class="outline-text-3" id="text-2-1">
-                </div>
-                <div id="outline-container-orgf371159" class="outline-4">
-                    <h4 id="orgf371159"><span class="section-number-4">2.1.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-2-1-1">
-                        <ul class="org-ul">
-                            <li>sunflower oil</li>
-                            <li>sesame oil</li>
-                            <li>lemon juice</li>
-                            <li>honey rice vinegar</li>
-                            <li>sugar</li>
-                            <li>salt</li>
-                            <li>garlic</li>
-                            <li>water</li>
-                            <li>red chili</li>
-                            <li>kafir lime leave</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="outline-container-org04b2964" class="outline-3">
-                <h3 id="org04b2964"><span class="section-number-3">2.2.</span> Bohnenpaste mit Kreuzkümmel</h3>
-                <div class="outline-text-3" id="text-2-2">
-                    <p>
-                        Alles gemeinsam anbraten und dann pürieren. dann <b>abschmecken</b> !!!! ;P
-                    </p>
+<div id="outline-container-org83fbbd3" class="outline-3">
+<h3 id="org83fbbd3"><span class="section-number-3">1.22.</span> VEgg Tofu</h3>
+<div class="outline-text-3" id="text-1-22">
+</div>
+<div id="outline-container-org6cddd4e" class="outline-4">
+<h4 id="org6cddd4e"><span class="section-number-4">1.22.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-1-22-1">
+</div>
+<ol class="org-ol">
+<li><a id="org63e8d00"></a>dry rub<br>
+<div class="outline-text-5" id="text-1-22-1-1">
+<ul class="org-ul">
+<li>Starch</li>
+<li>Glutinous rice flower</li>
+<li>salt</li>
+<li>pepper</li>
+</ul>
+</div>
+</li>
+<li><a id="org78beeb0"></a>batter<br>
+<div class="outline-text-5" id="text-1-22-1-2">
+<ul class="org-ul">
+<li>vegan egg</li>
+<li>korean chili paste</li>
+<li>water</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd6695ee" class="outline-4">
+<h4 id="orgd6695ee"><span class="section-number-4">1.22.2.</span> Preparation</h4>
+<div class="outline-text-4" id="text-1-22-2">
+<p>
+fry in oil duh :)
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org427f6ef" class="outline-2">
+<h2 id="org427f6ef"><span class="section-number-2">2.</span> Sauces</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org1842650" class="outline-3">
+<h3 id="org1842650"><span class="section-number-3">2.1.</span> sweet and sour sesame dressing from AH tofu box</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org386645a" class="outline-4">
+<h4 id="org386645a"><span class="section-number-4">2.1.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ul class="org-ul">
+<li>sunflower oil</li>
+<li>sesame oil</li>
+<li>lemon juice</li>
+<li>honey rice vinegar</li>
+<li>sugar</li>
+<li>salt</li>
+<li>garlic</li>
+<li>water</li>
+<li>red chili</li>
+<li>kafir lime leave</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org04b2964" class="outline-3">
+<h3 id="org04b2964"><span class="section-number-3">2.2.</span> Bohnenpaste mit Kreuzkümmel</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Alles gemeinsam anbraten und dann pürieren. dann <b>abschmecken</b> !!!! ;P
+</p>
 
                     <ul class="org-ul">
                         <li class="off"><input type='checkbox' /> Bohnen (laut druckkochtopf anleitung)</li>
@@ -682,48 +712,47 @@
                 </div>
             </div>
 
-            <div id="outline-container-org82d0e2a" class="outline-3">
-                <h3 id="org82d0e2a"><span class="section-number-3">2.3.</span> Bohnenpaste mit Joghurt</h3>
-                <div class="outline-text-3" id="text-2-3">
-                </div>
-                <div id="outline-container-orgb41ea5b" class="outline-4">
-                    <h4 id="orgb41ea5b"><span class="section-number-4">2.3.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-2-3-1">
-                        <ul class="org-ul">
-                            <li class="off"><input type='checkbox' /> Bohnen</li>
-                            <li class="off"><input type='checkbox' /> Zwiebel</li>
-                            <li class="off"><input type='checkbox' /> Knoblauch</li>
-                            <li class="off"><input type='checkbox' /> Olivenöl</li>
-                            <li class="off"><input type='checkbox' /> Sesamöl</li>
-                            <li class="off"><input type='checkbox' /> Mandeljoghurt</li>
-                            <li class="off"><input type='checkbox' /> Piment D'espelette</li>
-                            <li class="off"><input type='checkbox' /> Kreuzkümmel ganz</li>
-                            <li class="off"><input type='checkbox' /> Petersilie</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="outline-container-org30e06fb" class="outline-4">
-                    <h4 id="org30e06fb"><span class="section-number-4">2.3.2.</span> Instructions</h4>
-                    <div class="outline-text-4" id="text-2-3-2">
-                        <p>
-                            Zwiebel im Sesamöl anschwitzen Knoblauch, Kreuzkümmel, Piment D'espelette und Petersilie am
-                            Ende zugeben und noch 2 minuten in der Pfanne kochen.
-                            Mit den Bohnen gemeinsam pürieren und mit Joghurt, Salz und Pfeffer abschmecken
-                        </p>
-                    </div>
-                    <ol class="org-ol">
-                        <li><a id="orgd428e51"></a><br></li>
-                    </ol>
-                </div>
-            </div>
-            <div id="outline-container-org6c5009f" class="outline-3">
-                <h3 id="org6c5009f"><span class="section-number-3">2.4.</span> Muhammra</h3>
-                <div class="outline-text-3" id="text-2-4">
-                </div>
-                <div id="outline-container-org28fc25e" class="outline-4">
-                    <h4 id="org28fc25e"><span class="section-number-4">2.4.1.</span> Ingredients</h4>
-                    <div class="outline-text-4" id="text-2-4-1">
-                        <table>
+<div id="outline-container-org82d0e2a" class="outline-3">
+<h3 id="org82d0e2a"><span class="section-number-3">2.3.</span> Bohnenpaste mit Joghurt</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-orge31ec3c" class="outline-4">
+<h4 id="orge31ec3c"><span class="section-number-4">2.3.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<ul class="org-ul">
+<li class="off"><input type='checkbox' /> Bohnen</li>
+<li class="off"><input type='checkbox' /> Zwiebel</li>
+<li class="off"><input type='checkbox' /> Knoblauch</li>
+<li class="off"><input type='checkbox' /> Olivenöl</li>
+<li class="off"><input type='checkbox' /> Sesamöl</li>
+<li class="off"><input type='checkbox' /> Mandeljoghurt</li>
+<li class="off"><input type='checkbox' /> Piment D'espelette</li>
+<li class="off"><input type='checkbox' /> Kreuzkümmel ganz</li>
+<li class="off"><input type='checkbox' /> Petersilie</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga502b02" class="outline-4">
+<h4 id="orga502b02"><span class="section-number-4">2.3.2.</span> Instructions</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+Zwiebel im Sesamöl anschwitzen Knoblauch, Kreuzkümmel, Piment D'espelette und Petersilie am Ende zugeben und noch 2 minuten in der Pfanne kochen.
+Mit den Bohnen gemeinsam pürieren und mit Joghurt, Salz und Pfeffer abschmecken
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgd428e51"></a><br></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6c5009f" class="outline-3">
+<h3 id="org6c5009f"><span class="section-number-3">2.4.</span> Muhammra</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orgb2b220a" class="outline-4">
+<h4 id="orgb2b220a"><span class="section-number-4">2.4.1.</span> Ingredients</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<table>
 
 
                             <colgroup>
@@ -876,41 +905,40 @@
             </div>
         </div>
 
-        <div id="outline-container-org4ceb92f" class="outline-2">
-            <h2 id="org4ceb92f"><span class="section-number-2">4.</span> Research</h2>
-            <div class="outline-text-2" id="text-4">
-            </div>
-            <div id="outline-container-orgc46cbf5" class="outline-3">
-                <h3 id="orgc46cbf5"><span class="section-number-3">4.1.</span> Arab dishes deep dive</h3>
-                <div class="outline-text-3" id="text-4-1">
-                </div>
-                <div id="outline-container-orgfcf5637" class="outline-4">
-                    <h4 id="orgfcf5637"><span class="section-number-4">4.1.1.</span> Maghmour (lebanese chickpeas +
-                        eggplant + tomatoes)</h4>
-                </div>
-                <div id="outline-container-org3ac6c07" class="outline-4">
-                    <h4 id="org3ac6c07"><span class="section-number-4">4.1.2.</span> Mujadara</h4>
-                </div>
-                <div id="outline-container-org44929b9" class="outline-4">
-                    <h4 id="org44929b9"><span class="section-number-4">4.1.3.</span> Freekeh</h4>
-                </div>
-                <div id="outline-container-orgdc916bc" class="outline-4">
-                    <h4 id="orgdc916bc"><span class="section-number-4">4.1.4.</span> fatteh ohne chicken</h4>
-                </div>
-                <div id="outline-container-org1e9e489" class="outline-4">
-                    <h4 id="org1e9e489"><span class="section-number-4">4.1.5.</span> Ful medames</h4>
-                </div>
-                <div id="outline-container-org5c59ec4" class="outline-4">
-                    <h4 id="org5c59ec4"><span class="section-number-4">4.1.6.</span> Molokhia</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="postamble" class="status">
-        <p class="author">Author: Jakob Hauser</p>
-        <p class="date">Created: 2024-04-25 Thu 10:59</p>
-        <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
-    </div>
+<div id="outline-container-org4ceb92f" class="outline-2">
+<h2 id="org4ceb92f"><span class="section-number-2">4.</span> Research</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgc46cbf5" class="outline-3">
+<h3 id="orgc46cbf5"><span class="section-number-3">4.1.</span> Arab dishes deep dive</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-orgfcf5637" class="outline-4">
+<h4 id="orgfcf5637"><span class="section-number-4">4.1.1.</span> Maghmour (lebanese chickpeas + eggplant + tomatoes)</h4>
+</div>
+<div id="outline-container-org3ac6c07" class="outline-4">
+<h4 id="org3ac6c07"><span class="section-number-4">4.1.2.</span> Mujadara</h4>
+</div>
+<div id="outline-container-org44929b9" class="outline-4">
+<h4 id="org44929b9"><span class="section-number-4">4.1.3.</span> Freekeh</h4>
+</div>
+<div id="outline-container-orgdc916bc" class="outline-4">
+<h4 id="orgdc916bc"><span class="section-number-4">4.1.4.</span> fatteh ohne chicken</h4>
+</div>
+<div id="outline-container-org1e9e489" class="outline-4">
+<h4 id="org1e9e489"><span class="section-number-4">4.1.5.</span> Ful medames</h4>
+</div>
+<div id="outline-container-org5c59ec4" class="outline-4">
+<h4 id="org5c59ec4"><span class="section-number-4">4.1.6.</span> Molokhia</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Jakob Hauser</p>
+<p class="date">Created: 2024-04-25 Thu 20:42</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </body>
 
 </html>
