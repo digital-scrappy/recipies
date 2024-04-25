@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    /* background-color: #33ff00; */
+    left: 0;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: monospace;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+.outline-2 {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+    font-family: monospace;
+}
+
+nav h2 {
+    display: none;
+}
+
+
+
+/* Table of Contents */
+#text-table-of-contents {
+    font-family: monospace;
+    border-bottom: solid 4px black;
+    margin-bottom: 5rem;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+}
+
+/* First level of list items */
+#text-table-of-contents>ul {
+    padding-left: 0;
+}
+
+#text-table-of-contents>ul>li {
+    list-style-type: none;
+    margin-top: 20px;
+    /* text-align: center; */
+    border-top: solid 4px black;
+    padding-top: 10px;
+}
+
+#text-table-of-contents>ul>li a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+#text-table-of-contents>ul>li a:hover {
+    background-color: #33ff00;
+    font-weight: bold;
+}
+
+/* Second level of list items */
+#text-table-of-contents>ul>li>ul>li {
+    list-style-type: none;
+    padding: 5px 0 5px 40px;
+    border-top: solid 1px black;
+    text-align: left;
+}
+
+#text-table-of-contents>ul>li>ul {
+    padding-left: 0;
+
+}
+
+#text-table-of-contents>ul>li>ul>li:first-child {
+    margin-top: 15px;
+}
+
+/* Third level of list items */
+#text-table-of-contents>ul>li>ul>li a {
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+
+
+#text-table-of-contents>ul>li>ul>li>ul>li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+#text-table-of-contents>ul>li>ul>li>ul>li a {
+    font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #33ff00;
+    border-left: solid 8px #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #242424;
+}
