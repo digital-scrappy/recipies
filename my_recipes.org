@@ -1,0 +1,315 @@
+:PROPERTIES:
+:ID:       e9a4e06f-cea2-464d-b250-c77a3eb020c7
+:END:
+#+title: My Recipies
+ :ROAM_ALIASES: Essen, Recipies
+#+EXPORT_FILE_NAME: /home/scrappy/src/recipies/index
+
+* Standard meals
+
+** Potato Dumplings with rotkraut and smoked tofu
+** pasta with fennel sauce
+** Potato Dumplings with mushroom ragout and red cabbage
+https://zuckerjagdwurst.com/en/recipes/vegan-potato-dumplings-mushroom-ragout-red-cabbage
+** Aglio e olio pimped to the max
+"Aglio e olio con peperoncino, semi di zucca e scorza di limone"
+*** Ingredients:
+- Garlic
+- Olive Oil
+- Chili
+- Parsley
+- Pumpkin Seeds
+- Lemon Zest
+*** Instructions
+Roast pumpkin seeds separately.
+
+** Bohnen Gulasch 
+*** Ingredients
+- Potatoes
+- Tofu
+- Onions
+- Passata
+- Bohnenkraut
+- Majoran
+- Paprika Powder
+- Siracha
+- Kümmel
+- Laurel leaf
+- Applecider vinegar
+** Chickpea Curry
+*** Ingredients
+**** Main
+- Chickpeas
+- Onions
+- Coconut Milk
+- Diced Tomatoes
+- Veggies
+- Ginger
+- Garlic
+**** Spices
+- Curry
+- Kafir Lime leaf
+- Chilli
+- Sambal
+- Lemongrass
+**** Sides
+- CousCous
+- Rice
+- None
+
+** Pasta Alio e olio con peperoncino pimped by Stef
+*** Ingredients
+- Pasta
+- lemon zest
+- concentrato di pomodoro
+- parsley
+** Dal with 
+*** Ingredients
+_Dal:_
+- 200 g Rote Linsen
+- 1 TL Kurkumapulver
+- 1 TL Öl
+- 1 1/2 TL Salz
+
+_Tadka:_
+- 1 Zwiebel
+- 1 grüne Chili
+- 20 g Ingwer
+- 1/4 Bund Koriander
+- Curry blätter
+- Senfsaat
+- 2 EL Rapsöl alternativ Kokosöl
+- 1 TL Kreuzkümmelsamen
+- 100 g gehackte Tomaten frisch oder aus dem Glas
+
+*** Preperation
+- Linsen
+  Linsen gut waschen und nach rezept auf der packung kochen.
+- Tadka
+  Zwiebel und Chili fein hacken. Ingwer schälen und fein reiben. Koriander grob hacken.
+  Öl in eine heiße Pfanne geben Kreuzkümmelsamen, Curryblätter, und Senfsaat hineingeben aufpassen dass die senfsaat nicht zu poppen (popcorn) beginnt. Nach etwa 30-60 Sekunden Chili und Ingwer hinzugeben. 1 Minute bei mittlerer Hitze schmoren lassen und Zwiebelwürfel hinzugeben. 5 Minuten schmoren lassen. Tomaten  und weitere 5 Minuten bei niedriger Hitze braten, ab und zu umrühren.
+
+Linsen und Tadka vermischen und mit Koriander servieren.                          
+
+** TODO lemon zesty carbocream pasta madness
+** Tom Kha Gai
+*** Ingredients
+- Onions
+- Garlic
+- gangal (a sort of Thai ginger)
+- chilies
+- cilantro
+- Kaffir lime leaves
+- coconut milk
+- Basmati rice
+- Miso paste
+- lemon grass
+- vegetable stock or salt
+*** Recipe
+
+** Gazpacho Andaluz
+*** Ingredients
+- 1 kg Tomatoes
+- 2 Peppers
+- 1 Cucumber
+- 1 clove Garlic
+- 1 Onion
+- Olive Oil
+- Salt
+- Vinegar
+- Croutons/Bread
+** Kürbis Kichererbsen Eintopf
+*** Ingredients
+**** Main
+- Hokkaido Pumpkin
+- Passata/Polpa
+- Diced canned tomatoes
+- Onion
+- Garlic
+- Dried Plumbs
+- Chickpeas
+**** Spices
+- Harissia powder (Cumin, Caraway, Coriander seeds, Smoked paprika powder, Paprika Powder, Piment, Fenugreek leaves/Boxhornklee Blätter (Kasuri Methi - get it from an Indian Shop), Bay Leaves, Chilli)
+- Lime
+- Fresh Coriander
+**** Sides
+- Rice
+- Bulgur
+- CousCous
+** Gratin Dauphinoise 
+*** Ingredients
+- 1 kilo Erdäpfel
+- 750ml Milch
+- 300 ml Schlagobers
+- 3 Knoblauch zehen
+- Muskatnuss
+** Veganes Krautfleisch
+*** Ingredients
+- [ ] Kartoffeln
+- [ ] Sauerkraut
+- [ ] Räuchertofu
+- [ ] Zwiebel
+- [ ] Knoblauch
+- [ ] Gemüsesuppe
+- [ ] Paprika Pulver
+- [ ] Kümmel ganz
+- [ ] Lorbeer Blätter
+- [ ] Bohnenkraut/Majoran
+
+** TODO Garlic Chili Tofu Noodles
+** Steirischer Bohnensalat
+*** Ingredients
+- 1 red onion
+- Pumpkin seed oil
+- Appelcidar vinegar
+- salt
+- Tomatoes / radish (optional)
+- 1/2 Apple shredded (optional
+  
+
+*** preperation
+cut onions in half rings -> (add apple) -> mix with beans -> season with vinegar, salt, pepper -> pumpkin seed oil (always oil last other wise the other stuff does not stick to the beans and stuff, you tell me why)  -> tomatoes / radish 
+
+** Asparagus Pasta
+https://www.bonappetit.com/recipe/spaghetti-al-limone-with-asparagus
+
+** arepa de choclo (comlumbian corn pancakes)
+*** Ingredients
+ - 285g Mais aus der dose
+ - 4tbl spoons corn flour
+ - (1 egg)
+ - 1/2 tsp salt
+ - 1 tbls spoon molten butter
+*** Instructions
+mix stuff, add to pan and add cheese between two pancakes when they are golden brown on both sides
+** Daal Makhni
+** Pho Bo
+*** Ingredients
+**** For the soup
+- Oil
+- Carrots
+- Garlic
+- Ginger
+- Lemongrass
+- Mushrooms
+- Onions
+- Cloves
+- Star anise
+- Chilli
+- Miso Paste
+- Soy Sauce
+- Sambal
+- Lemon/Lime juice
+** LacknerPalak
+*** Ingredients for the Palak 
+- Cumin 
+- Garam Masala 
+- Coriander seeds/ground
+- Lemon grass
+- Garlic 
+- Ginger
+- Spinach
+- Chili
+- Potatoes
+- Kidneybeans
+- Coriander leaves
+- Fenugreek leaves (Kasuri Methi|Bockshornkleeblätter)
+- Curry leaves
+- Kafir lime leaves
+- Coconut milk
+*** Sides
+- tofu
+- rice
+  
+* Sauces
+** sweet and sour sesame dressing from AH tofu box
+*** Ingredients
+- sunflower oil
+- sesame oil
+- lemon juice
+- honey rice vinegar
+- sugar
+- salt
+- garlic
+- water
+- red chili
+- kafir lime leave
+** Bohnenpaste mit Kreuzkümmel
+Alles gemeinsam anbraten und dann pürieren. dann *abschmecken* !!!! ;P
+
+- [ ] Bohnen (laut druckkochtopf anleitung)
+- [ ] Kreuzkümmel
+- [ ] Zwiebel
+- [ ] chilli
+- [ ] Zitronensaft
+- [ ] Knoblauch
+- [ ] Salz 
+
+** Bohnenpaste mit Joghurt
+*** Ingredients
+- [ ] Bohnen
+- [ ] Zwiebel
+- [ ] Knoblauch
+- [ ] Olivenöl
+- [ ] Sesamöl
+- [ ] Mandeljoghurt
+- [ ] Piment D'espelette
+- [ ] Kreuzkümmel ganz
+- [ ] Petersilie
+*** Instructions
+Zwiebel im Sesamöl anschwitzen Knoblauch, Kreuzkümmel, Piment D'espelette und Petersilie am Ende zugeben und noch 2 minuten in der Pfanne kochen.
+Mit den Bohnen gemeinsam pürieren und mit Joghurt, Salz und Pfeffer abschmecken
+**** 
+** Muhammra
+*** Ingredients
+| name         | amount per serving | unit  | num servings | gross amount |
+| num servings |                    |       |           10 |              |
+|--------------+--------------------+-------+--------------+--------------|
+| red peppers  |                0.5 | piece |              |           5. |
+| walnuts      |                 25 | g     |              |          250 |
+#+TBLFM: $5=$2*@2$4
+*** Seasoning
+| name                  | amount per serving | unit  | 
+|-----------------------+--------------------+-------|
+| garlic                |               0.25 | head  | 
+| chili                 |                  1 | pice  | 
+| balsamico             |               0.75 | tbsp  | 
+| smoked paprika powder |               0.25 | tsp   | 
+
+* Snacks
+
+** cliff bar recreation
+*** der standard
+- 55 g Mandeln
+- 115 g Haferflocken
+- 30 g gemahlene Leinsamen (alternativ ganze, siehe Bild 2)
+- 1/4 TL Salz
+- 55 g Datteln, entkernt (ca. 6 Stück)
+
+- 55 g Kokosette (fein)
+- 3 EL Kokosöl (30 g)
+- 2 EL Erdnussbutter (35 g), hier 100 % gemahlene Erdnüsse
+- 60 ml (75 g) Ahornsirup
+
+- Backform: 20 x 20 cm (ersatzweise 22–23-cm-Springform)
+
+*** ich
+- 140g ahorn
+- 200g haselnuss butter (alnatura)
+- 110g kokos raspeln
+
+hi
+- 110g mandeln
+- 230g flocken
+- 60g leinsamen
+- 100g schoko
+
+* Research
+** Arab dishes deep dive
+*** Maghmour (lebanese chickpeas + eggplant + tomatoes)
+*** Mujadara
+*** Freekeh
+*** fatteh ohne chicken
+*** Ful medames
+*** Molokhia
+ 
