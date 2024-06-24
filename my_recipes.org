@@ -6,8 +6,35 @@
 #+title: Bukajs Cookbook
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 
-* Standard meals
+* Introduction
+Hi :)
+Here is my incomplete and untidy collection of recipes (I do actually know how to spell it).
+In case you want to receive updates when I add new stuff let me know then I can put you on my *for sure* very frequent newsletter.
 
+* Standard meals
+** Indian Yellow Lentil Soup with Sautéed Broccoli
+*** Ingredients:
+- 200g Yellow Lentils
+- 1 Onion
+- 2 cloves Garlic
+- 1 tbsp Ginger, grated
+- 2 Lemons
+- Salt
+- Pepper
+- Broccoli
+- Olive Oil
+- Cumin
+*** Instructions:
+1. Rinse the yellow lentils and cook in water until tender.
+2. Finely chop the onion and garlic.
+3. Heat olive oil in a pot and sauté the onion and garlic until translucent.
+4. Add grated ginger and sauté for another minute.
+5. Add cooked lentils to the pot and stir well.
+6. Juice one lemon and add the juice to the soup.
+7. Slice the second lemon and add the slices to the soup.
+8. Season with salt and pepper to taste.
+9. In a separate pan, sauté broccoli in olive oil until tender.
+10. Serve the soup hot with sautéed broccoli on the side.
 ** Glass Noodle Salad
 *** Ingredients:
 - Carrots
@@ -39,7 +66,6 @@
 7. For the dressing, finely chop the garlic and ginger.
 8. Mix soy sauce, tahini, garlic, and ginger until smooth.
 9. Pour the dressing over the salad and toss well.
-
 
 ** Potato Dumplings with Rotkraut and smoked tofu
 ** pasta with fennel sauce
